@@ -16,7 +16,7 @@ function NavigationBar() {
                         <NavDropdown.Item  as={Link} to="/Sorting/Insertion_Sort">Insertion Sort</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item  as={Link} to="/Sorting/Merge_Sort">Merge Sort</NavDropdown.Item>
-                        <NavDropdown.Item  as={Link} to="/Quick_Sort">Quick Sort</NavDropdown.Item>
+                        <NavDropdown.Item  as={Link} to="/Sorting/Quick_Sort">Quick Sort</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="MST" id="collasible-nav-dropdown">
                         <NavDropdown.Item  as={Link} to="/MST/Prims">Prim's Algorithm</NavDropdown.Item>
