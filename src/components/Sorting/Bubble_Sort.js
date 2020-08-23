@@ -1,7 +1,6 @@
 import React from 'react';
 import Canvas from '../Graph/Canvas';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import Rectangle from '../Graph/Rectangle';
 
 class Bubble_sort extends React.Component {
 

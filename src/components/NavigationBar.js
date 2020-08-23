@@ -13,9 +13,7 @@ function NavigationBar() {
                     <NavDropdown title="Sorting" id="collasible-nav-dropdown">
                         <NavDropdown.Item as={Link} to="/Sorting/Bubble_Sort">Bubble Sort</NavDropdown.Item>
                         <NavDropdown.Item  as={Link} to="/Sorting/Selection_Sort">Selection Sort</NavDropdown.Item>
-                        <NavDropdown.Item  as={Link} to="/Sorting/Insertion_Sort">Insertion Sort</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item  as={Link} to="/Sorting/Merge_Sort">Merge Sort</NavDropdown.Item>
                         <NavDropdown.Item  as={Link} to="/Sorting/Quick_Sort">Quick Sort</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="MST" id="collasible-nav-dropdown">
