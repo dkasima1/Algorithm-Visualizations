@@ -18,7 +18,7 @@ function NavigationBar() {
                     </NavDropdown>
                     <NavDropdown title="MST" id="collasible-nav-dropdown">
                         <NavDropdown.Item  as={Link} to="/MST/Prims">Prim's Algorithm</NavDropdown.Item>
-                        <NavDropdown.Item  as={Link} to="/MST/Kruskals">Kruskal's Algorithm</NavDropdown.Item>
+                        <NavDropdown.Item  as={Link} to="/MST/Kruskal">Kruskal's Algorithm</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Shortest Path" id="collasible-nav-dropdown">
                         <NavDropdown.Item  as={Link} to="/Shortest_Path/Dijkstra's">Dijkstra's</NavDropdown.Item>

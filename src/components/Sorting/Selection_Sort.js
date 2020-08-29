@@ -1,5 +1,5 @@
 import React from 'react';
-import Canvas from '../Graph/Canvas';
+import Canvas from './Canvas';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 
 class Selection_sort extends React.Component {

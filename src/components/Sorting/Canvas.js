@@ -33,6 +33,7 @@ export default class Canvas {
         // Generate bars of bargraph
         
         const canvas = this.canvasRef.current;
+        console.log(canvas);
         let ctx = canvas.getContext("2d");
         ctx.clearRect(0, 0, 1080, 720);
 
